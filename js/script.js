@@ -39,3 +39,7 @@ const userFavoriteColor = prompt('Quale è il tuo colore preferito?');
 //Creo una variabile dove genero la password sommando le stringhe
 
 const genPassword = userName + userSurname + userFavoriteColor + fixedPswAdd ;
+
+//Inserisco la password nell'elemento recuperato e lo stampo
+
+pswPlaceHolder.innerText = `Ciao ${userName} ${userSurname}, la tua nuova password è: ${genPassword}`;

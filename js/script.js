@@ -22,6 +22,17 @@ const pswPlaceHolder = document.getElementById('pswgenerated');
 
 // Creo e assegno il valore alla costante 21
 
-const fixedpswadd = 21;
+const fixedPswAdd = 21;
 
+// Chiedo il nome all'utente e lo salvo in una variabile
+
+const userName = prompt('Quale è il tuo nome?');
+
+// Chiedo il cognome all'utente e lo salvo in una variabile
+
+const userSurname = prompt('Quale è il tuo cognome?');
+
+// Chiedo il colore all'utente e lo salvo in una variabile
+
+const userFavoriteColor = prompt('Quale è il tuo colore preferito?');
 

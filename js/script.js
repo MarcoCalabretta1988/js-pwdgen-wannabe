@@ -11,7 +11,7 @@ TO DO LIST:
 3- Chiedere nome all'utente e salvarlo in una variabile
 4- Chiedere cognome all'utente e salvarlo in una variabile
 5- Chiedere colore preferito all'utente e salvarlo in una variabile
-6- Creare una variabile in cui addiziono tutte le stringhe
+6- Creare una variabile dove genero la password sommando tutte le stringhe
 7- Stampo l'elemento recuperato con il valore calcolato precedentemente
 
 */
@@ -36,3 +36,6 @@ const userSurname = prompt('Quale è il tuo cognome?');
 
 const userFavoriteColor = prompt('Quale è il tuo colore preferito?');
 
+//Creo una variabile dove genero la password sommando le stringhe
+
+const genPassword = userName + userSurname + userFavoriteColor + fixedPswAdd ;

@@ -16,3 +16,12 @@ TO DO LIST:
 
 */
 
+//Prendo l'elemento dalla pagina
+
+const pswPlaceHolder = document.getElementById('pswgenerated');
+
+// Creo e assegno il valore alla costante 21
+
+const fixedpswadd = 21;
+
+
